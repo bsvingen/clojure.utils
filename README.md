@@ -14,7 +14,7 @@ Leiningen coordinate:
 
 ## Examples
 
-### `non-empty-string?`
+### Checking for non-empty string
 
 ```clojure
 (non-empty-string? "yes") => true
@@ -24,7 +24,7 @@ Leiningen coordinate:
 (non-empty-string? nil) => false
 ```
 
-### `substring?`
+### Checking for substring
 
 ```clojure
 (substring? "cd" "abcdef") => true
@@ -32,13 +32,13 @@ Leiningen coordinate:
 (substring? "xxx" "abcdef") => false
 ```
 
-### `to-int`
+### Converting to int
 
 ```clojure
 (to-int "7") => 7
 ```
 
-### `not-nil?`
+### Checking not nil
 
 ```clojure
 (not-nil? 7) => true
@@ -46,13 +46,13 @@ Leiningen coordinate:
 (not-nil? nil) => false
 ```
 
-### `spaced-str`
+### Joining non-nil strings with spaces
 
 ```clojure
 (spaced-str "abc" nil 7 "ghi") => "abc 7 ghi"
 ```
 
-### `when-seq-let`
+### when-let for non-empty sequences
 
 ```clojure
 (when-seq-let [seq nil]
