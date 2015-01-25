@@ -1,4 +1,4 @@
-![travis-ci.org](https://travis-ci.org/bsvingen/clojure.utils.svg?branch=master)
+[![travis-ci.org](https://travis-ci.org/bsvingen/clojure.utils.svg?branch=master)](https://travis-ci.org/bsvingen/clojure.utils)
 
 [![Examples tested with midje-readme](http://img.shields.io/badge/readme-tested-brightgreen.svg)](https://github.com/boxed/midje-readme)
 
