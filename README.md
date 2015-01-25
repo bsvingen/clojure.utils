@@ -1,3 +1,5 @@
+![travis-ci.org](https://travis-ci.org/bsvingen/clojure.utils.svg?branch=master)  
+
 # clojure.utils
 
 A collection of Clojure utilities.
