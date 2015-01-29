@@ -11,7 +11,7 @@ A collection of Clojure utilities.
 Leiningen coordinate:
 
 ```clj
-[com.borkdal/clojure.utils "0.1.0"]
+[com.borkdal/clojure.utils "0.1.1"]
 ```
 
 ## Examples
