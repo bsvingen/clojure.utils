@@ -33,3 +33,10 @@
      (when (seq ~var)
        ~@body)))
 
+(defn only
+  [coll]
+  {:pre [(or (nil? coll)
+             (and (sequential? coll)))
+         (>= 1 (count coll))]}
+  (first coll))
+

@@ -67,3 +67,11 @@ Leiningen coordinate:
   :yes) => :yes
 ```
 
+### first for strings that should have a single element
+```clojure
+(fact "one-element sequence"
+  (only [1]) => 1)
+
+(fact "multi-element sequence"
+  (only [1 2 3]) => (throws java.lang.AssertionError))
+```

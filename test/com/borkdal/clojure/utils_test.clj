@@ -64,3 +64,13 @@
     (when-seq-let [seq '(1 2 3)]
       (apply spaced-str "yes" seq)) => "yes 1 2 3"))
 
+(facts "only"
+  (fact "nil"
+    (only nil) => nil)
+  (fact "empty sequence"
+    (only []) => nil)
+  (fact "one-element sequence"
+    (only [1]) => 1)
+  (fact "multi-element sequence"
+    (only [1 2 3]) => (throws java.lang.AssertionError)))
+
