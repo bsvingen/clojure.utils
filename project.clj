@@ -1,4 +1,4 @@
-(defproject com.borkdal/clojure.utils "0.1.2-SNAPSHOT"
+(defproject com.borkdal/clojure.utils "0.1.2"
   :description "Clojure utilities."
   :url "https://github.com/bsvingen/clojure.utils"
   :license {:name "Apache License 2.0"
